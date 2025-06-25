@@ -10,11 +10,11 @@
     />
     <link rel="stylesheet" href="/Assets/materialize/css/materialize.min.css" />
     <link rel="stylesheet" href="/Assets/css/styles.css" />
+    <link rel="stylesheet" href="/Assets/css/util.css" />
 
     <title>My project</title>
   </head>
   <body>
-
     <!-- navbar (start) -->
     <nav class="white z-depth-0">
       <div class="nav-wrapper">
@@ -54,17 +54,41 @@
       </li>
       <li><div class="divider"></div></li>
       <li><a class="subheader">Other...</a></li>
-      <li><a class="waves-effect" href="#!"><i class="material-icons">home</i>Home</a></li>
-      <li><a class="waves-effect" href="#!"><i class="material-icons">shop</i>Shop</a></li>
-      <li><a class="waves-effect" href="#!"><i class="material-icons">person</i>Profile</a></li>
+      <li>
+        <a class="waves-effect" href="#!"
+          ><i class="material-icons">home</i>Home</a
+        >
+      </li>
+      <li>
+        <a class="waves-effect" href="#!"
+          ><i class="material-icons">shop</i>Shop</a
+        >
+      </li>
+      <li>
+        <a class="waves-effect" href="#!"
+          ><i class="material-icons">person</i>Profile</a
+        >
+      </li>
     </ul>
     <!-- navbar (end) -->
 
     <!-- home section (start) -->
-    <section>
-        <img src="/Assets/images/logo.png" alt="logo-png" class="w-full"/>
-        <a href="#!" class="waves-effect btn blue darken-3">Programming Tutorial</a>
-        <a href="#!" class="waves-effect btn blue darken-3">Users Managers</a>
+    <section class="flex-col-c p-t-200">
+      <img
+        src="/Assets/images/logo.png"
+        alt="logo-png"
+        class="w-full max-w-300 rounded_pill filter_shadow"
+      />
+      <a
+        href="#!"
+        class="waves-effect btn blue darken-3 w-full max-w-300 m-t-50 rounded_pill"
+        >Programming Tutorial</a
+      >
+      <a
+        href="/users.html"
+        class="waves-effect btn blue darken-3 w-full max-w-300 m-t-10 rounded_pill"
+        >Users Managers</a
+      >
     </section>
     <!-- home section (end) -->
 
